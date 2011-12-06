@@ -20,6 +20,13 @@ namespace GetWorkItem
                 int id = tfs.AddWorkItem();
                 WorkItem item = tfs.GetWorkItem( id );
                 Console.WriteLine( item.Title + ":" + item.Description );
+                
+                item.Title = "タイトルを変更します";
+                item.Description = "詳細は詳しく、細かく書きましょう";
+                item.Save();
+
+                WorkItem updateItem = tfs.GetWorkItem( id );
+                Console.WriteLine( updateItem.Title + ":" + updateItem.Description );
             }
             catch ( Exception ex ) {
                 Console.WriteLine( "Error : " + ex.Message );
