@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetWorkItem", "GetWorkItem\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddWorkItem", "AddWorkItem\AddWorkItem.csproj", "{9F316BD6-AD59-4A26-ABF8-9C9AB6806258}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListWorkItemFields", "ListWorkItemFields\ListWorkItemFields.csproj", "{49BE47A0-BFAA-4DA5-950A-E980E95D8BC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{9F316BD6-AD59-4A26-ABF8-9C9AB6806258}.Debug|x86.Build.0 = Debug|x86
 		{9F316BD6-AD59-4A26-ABF8-9C9AB6806258}.Release|x86.ActiveCfg = Release|x86
 		{9F316BD6-AD59-4A26-ABF8-9C9AB6806258}.Release|x86.Build.0 = Release|x86
+		{49BE47A0-BFAA-4DA5-950A-E980E95D8BC2}.Debug|x86.ActiveCfg = Debug|x86
+		{49BE47A0-BFAA-4DA5-950A-E980E95D8BC2}.Debug|x86.Build.0 = Debug|x86
+		{49BE47A0-BFAA-4DA5-950A-E980E95D8BC2}.Release|x86.ActiveCfg = Release|x86
+		{49BE47A0-BFAA-4DA5-950A-E980E95D8BC2}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
