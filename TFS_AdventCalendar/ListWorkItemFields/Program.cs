@@ -15,14 +15,14 @@ namespace ListWorkItemFields
                 string collenctionName = "localhost\\DefaultCollection";
                 string projectName = "TFS_API_SAMPLE";
 
-TfsClient tfs = new TfsClient( uri, credential,
-                    collenctionName, projectName );
-int id = tfs.AddWorkItem();
-WorkItem item = tfs.GetWorkItem( id );
+                TfsClient tfs = new TfsClient( uri, credential,
+                                    collenctionName, projectName );
+                int id = tfs.AddWorkItem();
+                WorkItem item = tfs.GetWorkItem( id );
 
-foreach ( Field field in item.Fields ) {
-    Console.WriteLine( field.Name + ":" + item[field.Name] );
-}
+                foreach ( Field field in item.Fields ) {
+                    Console.WriteLine( field.Name + ":" + item[field.Name] );
+                }
             }
             catch ( Exception ex ) {
                 Console.WriteLine( "Error : " + ex.Message );

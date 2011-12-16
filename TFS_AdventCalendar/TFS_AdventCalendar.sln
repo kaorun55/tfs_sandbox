@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddWorkItem", "AddWorkItem\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListWorkItemFields", "ListWorkItemFields\ListWorkItemFields.csproj", "{49BE47A0-BFAA-4DA5-950A-E980E95D8BC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddAttachments", "AddAttachments\AddAttachments.csproj", "{BE12CD8A-9563-48DD-A4F2-B46D4EFAB757}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,6 +27,10 @@ Global
 		{49BE47A0-BFAA-4DA5-950A-E980E95D8BC2}.Debug|x86.Build.0 = Debug|x86
 		{49BE47A0-BFAA-4DA5-950A-E980E95D8BC2}.Release|x86.ActiveCfg = Release|x86
 		{49BE47A0-BFAA-4DA5-950A-E980E95D8BC2}.Release|x86.Build.0 = Release|x86
+		{BE12CD8A-9563-48DD-A4F2-B46D4EFAB757}.Debug|x86.ActiveCfg = Debug|x86
+		{BE12CD8A-9563-48DD-A4F2-B46D4EFAB757}.Debug|x86.Build.0 = Debug|x86
+		{BE12CD8A-9563-48DD-A4F2-B46D4EFAB757}.Release|x86.ActiveCfg = Release|x86
+		{BE12CD8A-9563-48DD-A4F2-B46D4EFAB757}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
